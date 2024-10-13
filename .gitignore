@@ -1,0 +1,23 @@
+# Ignorar carpetas de caché de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignorar entorno virtual de Python
+env/
+venv/
+
+# Ignorar caché de IDEs como VSCode y PyCharm
+.vscode/
+.idea/
+
+# Ignorar archivos de caché de FastAPI o Uvicorn
+*.log
+.cache/
+
+# Ignorar dependencias locales
+node_modules/
+
+# Ignorar archivos de base de datos SQLite
+*.sqlite3
