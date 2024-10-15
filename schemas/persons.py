@@ -9,7 +9,7 @@ class PersonBase(BaseModel):
     Curp: str
     Puesto: Optional[str] = None 
     Jefe_ID: Optional[int] = None
-    Direccion: Optional[str] = None
+    Direccion: Optional[str] = "Calle: ,No.Exteriror: ,No.Interior: ,Clonia: ,Municipio: , Estado: ,Pais:"
     Empleado_id: Optional[str] = None
     Estatus: bool
     Fecha_Registro: datetime

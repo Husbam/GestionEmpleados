@@ -7,15 +7,15 @@ class Person(Base):
     __tablename__ = "Empleados"
     
     ID = Column(Integer, primary_key=True, index=True)
-    Nombre = Column(String(255))
-    Primer_Apellido = Column(String(255))
+    Nombre = Column(String(255),nullable=False)
+    Primer_Apellido = Column(String(255),nullable=False)
     Segundo_Apellido = Column(String(255))
-    Curp = Column(String(18)) 
+    Curp = Column(String(18),nullable=False,unique=True) 
     Puesto = Column(String(100))
-    Jefe_ID = Column(Integer, ForeignKey('Empleados.ID'), nullable=True)
-    Direccion = Column(String(255))
+    Jefe_ID = Column(Integer, ForeignKey('Empleados.ID'), nullable=False)
+    Direccion = Column(String(255),nullable=False)
     Empleado_id = Column(String(12))
-    Estatus = Column(Boolean, default=False)
+    Estatus = Column(Boolean, default=False,nullable=False)
     Fecha_Registro = Column(DateTime)
     Fecha_Actualizacion = Column(DateTime)
 

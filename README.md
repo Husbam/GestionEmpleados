@@ -33,17 +33,17 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
     
 2. **Creacion y activacion del entorno**
 ```bash
-    -python -m venv env
-    -cd rutaDeClonacion\env\Scripts\activate
+    python -m venv env
+    cd rutaDeClonacion\env\Scripts\activate
 ```
 3. **Base de Datos en MySQL**
 ```bash
-    -create database CasoPractico;
-    -use CasoPractico;
+    create database CasoPractico;
+    use CasoPractico;
 ```
 4. **Correr el proyecto**
 ```bash
-    -uvicorn app:app ó uvicorn app:app --reload
+    uvicorn app:app ó uvicorn app:app --reload
 ```
 5. **Entar a las rutas del servidor**
     - Seleccionar la ruta que da el servidor en consola.
