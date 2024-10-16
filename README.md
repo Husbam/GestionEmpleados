@@ -41,8 +41,9 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
     create database CasoPractico;
     use CasoPractico;
 ```
-  3.1 **Diagrama E-R**:
+  3.1 **Diagrama E-R**
   ![Diagrama ER](img/er.png)
+  
 4. **Correr el proyecto**
 ```bash
     uvicorn app:app ó uvicorn app:app --reload
