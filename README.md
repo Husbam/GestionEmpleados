@@ -41,13 +41,15 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
     create database CasoPractico;
     use CasoPractico;
 ```
+  3.1 **Diagrama E-R**:
+  ![Diagrama ER](img/er.png)
 4. **Correr el proyecto**
 ```bash
     uvicorn app:app ó uvicorn app:app --reload
 ```
 5. **Entar a las rutas del servidor**
     - Seleccionar la ruta que da el servidor en consola.
-    - Agregar a la ruta anterior: "ruta/docs"
-    en ella se podran visuaizar las rutas de una manera mas intuitiva
+    - Agregar a la ruta anterior: "ruta/docs" (http://127.0.0.1:8000/docs)
+    en ella se podran visualizar las rutas de una manera mas intuitiva
 
 
